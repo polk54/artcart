@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ArtCart — FAQ</title>
+  <meta name="description" content="Answers to common questions about ArtCart: privacy, iCloud sync, pricing, what happens if you cancel, and more." />
+  <meta name="theme-color" content="#2370C6" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png" />
+  <link rel="apple-touch-icon" href="../favicon-180.png" />
+
+  <meta property="og:title" content="ArtCart — FAQ" />
+  <meta property="og:description" content="Privacy, sync, pricing, and what happens if you cancel — answered plainly." />
+  <meta property="og:image" content="../og-image.png" />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --bg: #F4F4F2;
+      --card: #FFFFFF;
+      --ink: #1F1E1D;
+      --ink-soft: #8A8A8E;
+      --accent: #2370C6;
+      --line: #E6E5E3;
+      --dot: rgba(138, 138, 142, 0.28);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Hanken Grotesk', system-ui, -apple-system, sans-serif;
+      color: var(--ink);
+      background-color: var(--bg);
+      background-image: radial-gradient(var(--dot) 1.5px, transparent 1.5px);
+      background-size: 22px 22px;
+      background-position: center;
+      min-height: 100dvh;
+      line-height: 1.6;
+      padding: 40px 20px 80px;
+    }
+
+    .wrap { max-width: 640px; margin: 0 auto; }
+
+    .home {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      color: var(--ink-soft);
+      font-weight: 500;
+      font-size: 14px;
+      margin-bottom: 28px;
+    }
+    .home img { height: 26px; width: auto; }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: clamp(24px, 5vw, 40px);
+    }
+
+    h1 {
+      font-weight: 800;
+      font-size: clamp(28px, 6vw, 40px);
+      letter-spacing: -0.01em;
+      margin-bottom: 22px;
+    }
+
+    .updated {
+      color: var(--ink-soft);
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 24px;
+    }
+
+    .lede {
+      font-size: clamp(16px, 3.6vw, 18px);
+      color: var(--ink);
+      margin-bottom: 28px;
+    }
+
+    .tldr {
+      background: rgba(35, 112, 198, 0.06);
+      border: 1px solid rgba(35, 112, 198, 0.20);
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin-bottom: 20px;
+    }
+    .tldr h2 { border: 0; margin: 0 0 10px; padding: 0; font-size: 15px; color: var(--accent); letter-spacing: 0.02em; }
+    .tldr ul { margin: 0; padding-left: 20px; }
+    .tldr li { margin: 5px 0; font-size: 15px; }
+
+    .cat {
+      font-weight: 700;
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin: 34px 0 2px;
+    }
+
+    h2 {
+      font-weight: 700;
+      font-size: clamp(17px, 4vw, 20px);
+      margin: 22px 0 8px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+    }
+    .cat + h2 { border-top: 0; padding-top: 6px; margin-top: 6px; }
+
+    p { margin: 8px 0; color: var(--ink); }
+    p.soft { color: var(--ink-soft); font-size: 14.5px; }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    strong { font-weight: 700; }
+
+    footer {
+      text-align: center;
+      color: var(--ink-soft);
+      font-size: 12.5px;
+      margin-top: 36px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="home" href="../"><img src="../artcart-logo.png" alt="ArtCart" /></a>
+
+    <article class="card">
+      <h1>Frequently Asked Questions</h1>
+
+      <div class="tldr">
+        <h2>The short version</h2>
+        <ul>
+          <li><strong>No account, no tracking, no ads.</strong> Your work stays on your device and in your own iCloud.</li>
+          <li><strong>3 projects free.</strong> ArtCart Unlimited removes the limit for $9.99/year or $1/month.</li>
+          <li><strong>Cancel anytime</strong> — you keep everything you made; you just can't add new projects until you subscribe again.</li>
+        </ul>
+      </div>
+
+      <p class="cat">Privacy &amp; your data</p>
+
+      <section>
+        <h2>Is my data private? Can you see my projects?</h2>
+        <p>No — nobody but you can see your work. ArtCart has <strong>no servers and no accounts</strong>, so there's nowhere for the developer to see anything. Your projects, photos, notes, timelines, and boards stay on your device, and — if you use iCloud — in your <strong>own private iCloud</strong>. There's no analytics, no tracking, and no ads. Full details are in the <a href="../privacy/">Privacy Policy</a>.</p>
+      </section>
+
+      <section>
+        <h2>Where is my data stored? Does it sync across devices?</h2>
+        <p>By default, everything lives <strong>on your device</strong>. If you're signed in to iCloud with it enabled for ArtCart, your data also syncs through <strong>your own private iCloud</strong> across your devices and is included in your iCloud backups. This is handled entirely by Apple — only you can access it.</p>
+      </section>
+
+      <section>
+        <h2>Do I need an account?</h2>
+        <p>No. There's no sign-up, no email, and no password. Open the app and start making.</p>
+      </section>
+
+      <p class="cat">Pricing</p>
+
+      <section>
+        <h2>What's free, and what does ArtCart Unlimited cost?</h2>
+        <p>You can create up to <strong>3 projects for free</strong>, with every feature included — notes, supplies, links, the progress timeline, the drawing board, and the dice. <strong>ArtCart Unlimited</strong> removes the project limit for <strong>$9.99/year</strong> or <strong>$1/month</strong>. There's no free trial — the 3-project tier <em>is</em> the try-before-you-buy, so you only pay if you want more than three.</p>
+      </section>
+
+      <section>
+        <h2>What happens if I cancel, or my subscription ends?</h2>
+        <p><strong>You keep every project you've made.</strong> Nothing is deleted, hidden, or locked. The only change is that you can't create <em>new</em> projects beyond three until you subscribe again — everything you've already built stays fully visible and editable. Your subscription auto-renews until you cancel; you can manage or cancel anytime in <strong>Settings → your name → Subscriptions</strong> (or the App Store account menu).</p>
+      </section>
+
+      <section>
+        <h2>How do I redeem a code?</h2>
+        <p>If you have an offer code — say, from a promotion — open the subscribe screen in ArtCart and tap <strong>Redeem</strong>, or go to the <strong>App Store → your account → Redeem Gift Card or Code</strong>.</p>
+      </section>
+
+      <p class="cat">Using ArtCart</p>
+
+      <section>
+        <h2>Which crafts is it for?</h2>
+        <p>Any of them. Knitting, crochet, cross-stitch, embroidery, beading, quilting, sewing, felting, mixed fiber arts — ArtCart is craft-agnostic. You pick the craft type for each project, and track it however you work.</p>
+      </section>
+
+      <section>
+        <h2>Can I use it on more than one device?</h2>
+        <p>Yes — your projects sync across your iPhones through iCloud, so they're there on any iPhone signed in to the same iCloud account. ArtCart is currently designed for iPhone.</p>
+      </section>
+
+      <section>
+        <h2>How do I get help, or send a suggestion?</h2>
+        <p>Email <a href="mailto:polk54@gmail.com">polk54@gmail.com</a> — a real person (the developer) reads every message, and ArtCart is shaped by what makers ask for.</p>
+      </section>
+
+      <footer>ArtCart · 2026</footer>
+    </article>
+  </div>
+</body>
+</html>

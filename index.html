@@ -112,12 +112,33 @@
       color: var(--ink-soft);
     }
 
+    .topnav {
+      position: fixed;
+      top: 20px;
+      right: 22px;
+      display: flex;
+      gap: 22px;
+      z-index: 10;
+    }
+    .topnav a {
+      text-decoration: none;
+      color: var(--ink-soft);
+      font-weight: 600;
+      font-size: 14px;
+    }
+    .topnav a:hover { color: var(--accent); }
+
     @media (prefers-color-scheme: dark) {
       /* keep it light/brand for now — the app's dark mode is a later pass */
     }
   </style>
 </head>
 <body>
+  <nav class="topnav">
+    <a href="faq/">FAQ</a>
+    <a href="privacy/">Privacy</a>
+  </nav>
+
   <main class="wrap">
     <img class="logo" src="artcart-logo.png" alt="ArtCart" />
     <h1>What are you making?</h1>
